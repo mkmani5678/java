@@ -1,0 +1,156 @@
+1)
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello, Java!");
+        System.out.println("Welcome to Programming.");
+        System.out.println("My journey starts today.");
+    }
+}
+
+2)
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("College: ABC Engineering College");
+        System.out.println("Department: Computer Science");
+        System.out.println("Course: Java Programming");
+    }
+}
+
+3)
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Java is simple Java is powerful");
+    }
+}
+
+4)
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Name\t: Arun");
+        System.out.println("Course\t: Java");
+        System.out.println("Level\t: Beginner");
+    }
+}
+
+5)
+public class Main {
+    public static void main(String[] args) {
+        String name = "Arun";
+        int age = 18;
+        char grade = 'A';
+        boolean placementStatus = true;
+
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Grade: " + grade);
+        System.out.println("Placement Status: " + placementStatus);
+    }
+}
+
+6)
+public class Main {
+    public static void main(String[] args) {
+        int population = 8000000;
+        double productPrice = 1499.95;
+        char bloodGroup = 'A';
+        boolean accountVerified = true;
+        String employeeName = "Kavin";
+
+        System.out.println("Population: " + population);
+        System.out.println("Product Price: " + productPrice);
+        System.out.println("Blood Group: " + bloodGroup);
+        System.out.println("Account Verified: " + accountVerified);
+        System.out.println("Employee Name: " + employeeName);
+    }
+}
+
+7)
+public class Main {
+    public static void main(String[] args) {
+        String productName = "Laptop";
+        int productId = 101;
+        double price = 45999.99;
+        boolean availability = true;
+
+        System.out.println("----- PRODUCT INFORMATION -----");
+        System.out.println("Product Name: " + productName);
+        System.out.println("Product ID: " + productId);
+        System.out.println("Price: " + price);
+        System.out.println("Available: " + availability);
+        System.out.println("-------------------------------");
+    }
+}
+
+8)
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int age = sc.nextInt();
+        String city = sc.next();
+
+        System.out.println("Age: " + age);
+        System.out.println("City: " + city);
+
+        sc.close();
+    }
+}
+9)
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        String name = sc.nextLine();
+        int rollNumber = sc.nextInt();
+        sc.nextLine();
+        String department = sc.nextLine();
+        double percentage = sc.nextDouble();
+
+        System.out.println("STUDENT REGISTRATION");
+        System.out.println("Name: " + name);
+        System.out.println("Roll Number: " + rollNumber);
+        System.out.println("Department: " + department);
+        System.out.println("Percentage: " + percentage);
+
+        sc.close();
+    }
+}
+Sample Input:
+
+text
+Meena Raj
+204
+ECE
+91.25
+
+10)
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        String customerName = sc.nextLine();
+        String movieName = sc.nextLine();
+        int ticketCount = sc.nextInt();
+        double ticketPrice = sc.nextDouble();
+
+        System.out.println("BOOKING SUMMARY");
+        System.out.println("Customer: " + customerName);
+        System.out.println("Movie: " + movieName);
+        System.out.println("Tickets: " + ticketCount);
+        System.out.println("Ticket Price: " + ticketPrice);
+
+        sc.close();
+    }
+}
+Sample Input
+text
+Karthik
+Leo
+3
+180.50
