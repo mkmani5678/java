@@ -1,0 +1,185 @@
+1)
+  import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+
+        String result = (n % 2 == 0) ? "Even" : "Odd";
+        System.out.println(result);
+
+        sc.close();
+    }
+}
+
+2)
+  import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        String result = (a == b) ? "Equal" :
+                        (a > b) ? String.valueOf(a) :
+                        String.valueOf(b);
+
+        System.out.println(result);
+
+        sc.close();
+    }
+}
+
+3)
+  import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+
+        String result = (n > 0) ? "Positive" :
+                        (n < 0) ? "Negative" : "Zero";
+
+        System.out.println(result);
+
+        sc.close();
+    }
+}
+
+4)
+  import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int age = sc.nextInt();
+
+        String result = (age >= 18) ? "Eligible" : "Not Eligible";
+
+        System.out.println(result);
+
+        sc.close();
+    }
+}
+
+5)
+  import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+
+        String result = (n % 3 == 0 && n % 5 == 0)
+                        ? "Divisible by Both"
+                        : "Not Divisible by Both";
+
+        System.out.println(result);
+
+        sc.close();
+    }
+}
+
+6)
+  import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+
+        int largest = (a >= b && a >= c) ? a :
+                      (b >= c) ? b : c;
+
+        System.out.println(largest);
+
+        sc.close();
+    }
+}
+
+7)
+  import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+
+        String result = (Math.abs(n % 10) % 2 == 0)
+                        ? "Yes" : "No";
+
+        System.out.println(result);
+
+        sc.close();
+    }
+}
+
+8)
+  import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int m1 = sc.nextInt();
+        int m2 = sc.nextInt();
+        int m3 = sc.nextInt();
+
+        String result = (m1 >= 35 && m2 >= 35 && m3 >= 35)
+                        ? "Pass" : "Fail";
+
+        System.out.println(result);
+
+        sc.close();
+    }
+}
+
+9)
+  import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        double amount = sc.nextDouble();
+        boolean premium = sc.nextBoolean();
+
+        String result = (amount >= 1000 || premium)
+                        ? "Free Delivery" : "Delivery Charges Apply";
+
+        System.out.println(result);
+
+        sc.close();
+    }
+}
+
+10)
+  import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        double amount = sc.nextDouble();
+
+        double finalAmount = (amount >= 2000)
+                             ? amount * 0.90
+                             : amount;
+
+        System.out.println(finalAmount);
+
+        sc.close();
+    }
+}
